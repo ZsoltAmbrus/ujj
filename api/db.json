@@ -1,0 +1,16 @@
+{
+  "employees": [
+    {
+      "name": "nagy olajos",
+      "city": "Tatza",
+      "salary": "5423",
+      "id": 32
+    },
+    {
+      "name": "Ki van utve",
+      "city": "200",
+      "salary": "220",
+      "id": 33
+    }
+  ]
+}
