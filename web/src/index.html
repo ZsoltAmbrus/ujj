@@ -1,19 +1,41 @@
 
+<!--
+File: index.html
+Author: Ambrus Zsolt
+Copyright: 2024, Ambrus Zsolt
+Group: Szoft 1/I/N
+Date: 2024-05-14
+Github: https://github.com/janos12345/
+Licenc: GNU GPL
+-->
 <!DOCTYPE html>
 <html lang="hu">
   <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sinto Project</title>
+    <title>Találatok</title>
     <link rel="stylesheet" href="bootstrap.css">
     <link rel="stylesheet" href="style.css">        
   </head>
   <body>
     <div class="container">
-      <h1>Sinto Project</h1>
-      <p>This is a default index.html file, which was created by the sin command.</p>
+      <h1>Találatok</h1>
+      
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Desc</th>
+            <th>Ár</th>
+            <th>Unit</th>
+          </tr>
+        </thead>
+        <tbody id="test"></tbody>
+      </table>
+
     </div>
-    <script type="module" src="app.js"></script>
+    <script src="bootstrap.js"></script>
+    <script src="app.js"></script>
   </body>
 </html>
 

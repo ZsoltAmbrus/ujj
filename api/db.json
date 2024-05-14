@@ -1,16 +1,33 @@
 {
   "employees": [
     {
-      "name": "nagy olajos",
-      "city": "Tatza",
-      "salary": "5423",
-      "id": 32
+      "id": 1,
+      "name": "Hajvasaló",
+      "description": "Melegít",
+      "price": "43",
+      "unit": 100
+      
     },
     {
-      "name": "Ki van utve",
-      "city": "200",
-      "salary": "220",
-      "id": 33
+      "id": 2,
+      "name": "Könyv",
+      "description": "Lapok",
+      "price": "43",
+      "unit": 100
+    },
+    {
+      "id": 3,
+      "name": "Tálca",
+      "description": "Étel hordás",
+      "price": "93",
+      "unit": 100
+    },
+    {
+      "id": 4,
+      "name": "Kenyér",
+      "description": "Fehér",
+      "price": "78",
+      "unit": 134
     }
   ]
 }
